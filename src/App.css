@@ -194,5 +194,7 @@ footer{
   right:1.25em;
   z-index:2;
 }
-
-
+.overflow-hidden {
+  overflow-y: hidden;
+  height: 100vh;
+}

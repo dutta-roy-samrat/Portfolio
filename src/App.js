@@ -18,7 +18,7 @@ function App(props) {
   }
   return (
     
-    <div className="App">
+    <div className={`App ${props.navBar ? 'overflow-hidden' : ''}`}>
       
       <NavBar/>
       <div className={props.navBar?'nav-close':'nav_dropdown'} onClick={props.toggle}>
