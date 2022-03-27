@@ -2,6 +2,7 @@
 {margin:0;padding: 0;}
 .App{
   background: linear-gradient(white 50vh,#e6dace 50vh);
+  
 }
 .about{
   padding: 2.125em 1.25em 2.25em 1.25em;
@@ -136,3 +137,62 @@ footer{
   font-size: 0.875rem;
   margin-top: 1.786em;
 }
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_dropdown{
+  position: absolute;
+  right:1.25em;
+}
+.line1,.line2,.line3{
+  background-color:#0050ff;
+  height: 5px;
+  margin-block:2px;
+}
+.line1{
+  width: 15px;
+  margin-right: auto;
+}
+.line2{
+  width:30px;
+}
+.line3{
+  width: 15px;
+  margin-left:auto;
+}
+.nav-items{
+  display: none;
+}
+.nav-page{
+  position: absolute;
+  z-index:1;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background-color: #f4ece6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: navbar 0.5s ease-in-out 0s 1;
+  animation-fill-mode: forwards;
+}
+@keyframes navbar {
+  0%{
+    transform: translateY(-800px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 100;
+  }
+}
+.nav-close{
+  position: absolute;
+  right:1.25em;
+  z-index:2;
+}
+
+
