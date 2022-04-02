@@ -53,7 +53,7 @@
     color: white;
     border: 1px solid #0050ff;
   }
-  .send:hover,.send:focus{
+  .send:hover{
     color:#0050ff;
     background-color: white;
     border: 1px solid #0050ff;

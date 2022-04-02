@@ -11,11 +11,12 @@ import Projects from './pages/Projects';
 import ContactForm from './pages/ContactForm';
 import styles from './App.module.css'
 function App(props) {
+  
   return (
-    <div className={props.desktop?`${styles.App}`:`${styles.App} ${props.navBar?'stop_overflow':''}`}>
+    <div className={props.desktop?`${styles.App}`:`${styles.App} ${props.navBar?`${styles.stop_overflow}`:''}`}>
       <Header/>
       <Switch>
-          <Route exact path="/" element={<About/>}/>
+          <Route path='/' element={<About/>}/>
           <Route path='/resume' element={<Resume/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/contact' element={<ContactForm/>}/>

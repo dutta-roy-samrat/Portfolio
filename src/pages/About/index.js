@@ -9,7 +9,6 @@ export default function About(){
     React.useEffect(()=>window.scrollTo(0,0),[])
     return(<div className={styles.desktop_about}>
     <div className={styles.about}>
-        
         <Card render={()=>{
             return(
                 <>

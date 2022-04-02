@@ -42,7 +42,7 @@
     width: 125px;
     margin:0;
   }
-  .cv:hover,.cv:focus{
+  .cv:hover{
     color:black;
     background-color: #e6dace;
     border-color:  black;

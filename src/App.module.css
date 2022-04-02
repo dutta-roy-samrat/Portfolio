@@ -19,6 +19,9 @@
     height: 30px;
     border: none;
   }
+  .fa-brands{
+    color: black;
+  }
   @media all and (orientation:landscape) and (min-width:908px){
     .contact{
       display: flex;
