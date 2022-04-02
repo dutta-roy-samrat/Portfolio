@@ -1,33 +1,18 @@
 import './App.css';
-import Header from './Header'
-import About from './About';
-import Contact from './Contact'
-import Footer from './Footer'
-import NavBar from './NavBar';
+import Header from './components/Header';
+import About from './pages/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import React from 'react';
 import {connect} from "react-redux";
-import {toggle} from './redux/index'
 import {Routes as Switch,Route} from 'react-router-dom'
-import Resume from './Resume';
-import Projects from './Projects';
-import ContactForm from './ContactForm';
+import Resume from './pages/Resume';
+import Projects from './pages/Projects';
+import ContactForm from './pages/ContactForm';
+import styles from './App.module.css'
 function App(props) {
-  const [app,setApp]=React.useState('')
-  function show(){
-    if(document.documentElement.scrollHeight-window.innerHeight===Math.ceil(window.scrollY)){
-      setApp('show')
-    }
-    // else{
-    //   if(app==='show'){
-    //     setApp('');
-    //   }
-    // }
-  }
-  React.useEffect(()=>{
-  window.addEventListener('scroll',show)},[])
   return (
-    
-    <div className={`App ${props.navBar?'stop_overflow':''}`}>
+    <div className={props.desktop?`${styles.App}`:`${styles.App} ${props.navBar?'stop_overflow':''}`}>
       <Header/>
       <Switch>
           <Route exact path="/" element={<About/>}/>
@@ -35,22 +20,19 @@ function App(props) {
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/contact' element={<ContactForm/>}/>
       </Switch>
-      
-      <div className='contact'>
+      <div className={styles.contact}>
         <Contact/>
         <Footer/>
       </div>
-      <button className={`backToTop ${app}`} onClick={()=>window.scrollTo(0,0)}><i className="fa-solid fa-arrow-up"></i></button>
+      <button className={styles.backToTop} onClick={()=>window.scrollTo(0,0)}><i className="fa-solid fa-arrow-up"></i></button>
     </div>
   );
 }
 function mapStateToProps(globalState){
   return{
     navBar:globalState.navBar,
-    count:globalState.count
+    count:globalState.count,
+    desktop:globalState.desktop
   }
 }
-const mapDispatchToProps={
-  toggle:toggle
-}
-export default connect(mapStateToProps,mapDispatchToProps)(App);
+export default connect(mapStateToProps)(App);
