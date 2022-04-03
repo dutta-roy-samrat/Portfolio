@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.8d193c5f.css",
-    "main.js": "./static/js/main.ccbc05b8.js",
-    "static/js/787.128fc6e9.chunk.js": "./static/js/787.128fc6e9.chunk.js",
-    "static/media/Samrat_image.png": "./static/media/Samrat_image.86579231468ccd6fb925.png",
-    "static/media/Quizzical.png": "./static/media/Quizzical.95248a4e99d55adcd1d1.png",
-    "index.html": "./index.html",
-    "main.8d193c5f.css.map": "./static/css/main.8d193c5f.css.map",
-    "main.ccbc05b8.js.map": "./static/js/main.ccbc05b8.js.map",
-    "787.128fc6e9.chunk.js.map": "./static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.6a0d11e6.css",
+    "main.js": "/Portfolio/static/js/main.15cf56fe.js",
+    "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/Samrat_Resume.pdf": "/Portfolio/static/media/Samrat_Resume.3d403d76e94a5ac24227.pdf",
+    "static/media/Samrat_image.png": "/Portfolio/static/media/Samrat_image.86579231468ccd6fb925.png",
+    "static/media/Quizzical.png": "/Portfolio/static/media/Quizzical.95248a4e99d55adcd1d1.png",
+    "index.html": "/Portfolio/index.html",
+    "main.6a0d11e6.css.map": "/Portfolio/static/css/main.6a0d11e6.css.map",
+    "main.15cf56fe.js.map": "/Portfolio/static/js/main.15cf56fe.js.map",
+    "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d193c5f.css",
-    "static/js/main.ccbc05b8.js"
+    "static/css/main.6a0d11e6.css",
+    "static/js/main.15cf56fe.js"
   ]
 }
