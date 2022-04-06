@@ -28,19 +28,19 @@ export default function Resume(){
                 <Card render={()=>(
                     
                 <>
-                        <p className={styles.edu}>2017-2021</p>
+                        <p className={styles.date}>2017-2021</p>
                         <p className={styles.institute}>NATIONAL INSTITUTE OF TECHNOLOGY SILCHAR</p>
                         <p className={styles.degree}>Bachelor Of Technolgy</p>
                         <p className={styles.location}>Silchar,Assam</p>
         
                         <p className={styles.date}>2014-2016</p>
-                        <p className={styles.job_pos}>RAMANUJ GUPTA JUNIOR COLLEGE</p>
-                        <p className={styles.company}>Senior Secondary</p>
+                        <p className={styles.institute}>RAMANUJ GUPTA JUNIOR COLLEGE</p>
+                        <p className={styles.degree}>Senior Secondary</p>
                         <p className={styles.location}>Silchar,Assam</p>
                         
                         <p className={styles.date}>2002-2014</p>
-                        <p className={styles.job_pos}>ST. MARY'S SCHOOL</p>
-                        <p className={styles.company}>Secondary</p>
+                        <p className={styles.institute}>ST. MARY'S SCHOOL</p>
+                        <p className={styles.degree}>Secondary</p>
                         <p className={styles.location}>Hailakandi,Assam</p>
                         
                     </>

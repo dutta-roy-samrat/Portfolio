@@ -11,7 +11,6 @@ import Projects from './pages/Projects';
 import ContactForm from './pages/ContactForm';
 import styles from './App.module.css'
 function App(props) {
-  
   return (
     <div className={props.desktop?`${styles.App}`:`${styles.App} ${props.navBar?`${styles.stop_overflow}`:''}`}>
       <Header/>
