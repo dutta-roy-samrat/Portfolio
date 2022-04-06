@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6a0d11e6.css",
-    "main.js": "/Portfolio/static/js/main.15cf56fe.js",
+    "main.css": "/Portfolio/static/css/main.11f15e2d.css",
+    "main.js": "/Portfolio/static/js/main.64d01fd7.js",
     "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/MovieSearchApp.png": "/Portfolio/static/media/MovieSearchApp.6cddc4bdb36ff480b909.png",
     "static/media/Samrat_Resume.pdf": "/Portfolio/static/media/Samrat_Resume.3d403d76e94a5ac24227.pdf",
     "static/media/Samrat_image.png": "/Portfolio/static/media/Samrat_image.86579231468ccd6fb925.png",
     "static/media/Quizzical.png": "/Portfolio/static/media/Quizzical.95248a4e99d55adcd1d1.png",
     "index.html": "/Portfolio/index.html",
-    "main.6a0d11e6.css.map": "/Portfolio/static/css/main.6a0d11e6.css.map",
-    "main.15cf56fe.js.map": "/Portfolio/static/js/main.15cf56fe.js.map",
+    "main.11f15e2d.css.map": "/Portfolio/static/css/main.11f15e2d.css.map",
+    "main.64d01fd7.js.map": "/Portfolio/static/js/main.64d01fd7.js.map",
     "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a0d11e6.css",
-    "static/js/main.15cf56fe.js"
+    "static/css/main.11f15e2d.css",
+    "static/js/main.64d01fd7.js"
   ]
 }
