@@ -22,7 +22,7 @@ export default function Resume() {
             <>
               <p className={styles.date}>2022-Present</p>
               <p className={styles.job_pos}>FRONTEND DEVELOPER</p>
-              <p className={styles.company}>Vinsol|STADIUM.</p>
+              <p className={styles.company}>Vinsol | STADIUM.</p>
               <p className={styles.location}>Remote</p>
             </>
           )}
