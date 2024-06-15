@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.11f15e2d.css",
-    "main.js": "/Portfolio/static/js/main.f54b7dad.js",
+    "main.css": "/Portfolio/static/css/main.6cedb62e.css",
+    "main.js": "/Portfolio/static/js/main.af98a0ae.js",
     "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/MovieSearchApp.png": "/Portfolio/static/media/MovieSearchApp.6cddc4bdb36ff480b909.png",
-    "static/media/Samrat_Resume.pdf": "/Portfolio/static/media/Samrat_Resume.5aa6668ab5a0326b39b7.pdf",
     "static/media/Samrat_image.png": "/Portfolio/static/media/Samrat_image.86579231468ccd6fb925.png",
+    "static/media/Samrat_Resume.pdf": "/Portfolio/static/media/Samrat_Resume.d641a47ac285e3c13faf.pdf",
     "static/media/Quizzical.png": "/Portfolio/static/media/Quizzical.95248a4e99d55adcd1d1.png",
     "index.html": "/Portfolio/index.html",
-    "main.11f15e2d.css.map": "/Portfolio/static/css/main.11f15e2d.css.map",
-    "main.f54b7dad.js.map": "/Portfolio/static/js/main.f54b7dad.js.map",
+    "main.6cedb62e.css.map": "/Portfolio/static/css/main.6cedb62e.css.map",
+    "main.af98a0ae.js.map": "/Portfolio/static/js/main.af98a0ae.js.map",
     "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11f15e2d.css",
-    "static/js/main.f54b7dad.js"
+    "static/css/main.6cedb62e.css",
+    "static/js/main.af98a0ae.js"
   ]
 }
