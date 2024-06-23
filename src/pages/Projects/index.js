@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <div className={styles.projects}>
       <h1 className={styles.project}>
-        <span className={styles.blue_dot}> </span>Projects
+        <span className={styles.blue_dot}> </span>Personal Projects
       </h1>
       <Card
         render={() => (
