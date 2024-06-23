@@ -26,9 +26,7 @@ export default function About() {
                     <button className={styles.resume_btn}>RESUME</button>
                   </NavLink>
                   <NavLink to="/personal-projects">
-                    <button className={styles.projects_btn}>
-                      PERSONAL PROJECTS
-                    </button>
+                    <button className={styles.projects_btn}>MY PROJECTS</button>
                   </NavLink>
                 </div>
                 <div className={styles.job}>FRONTEND DEVELOPER</div>

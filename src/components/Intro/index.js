@@ -11,7 +11,7 @@ export default function Intro() {
           <button className={styles.resume_btn}>RESUME</button>
         </NavLink>
         <NavLink to="/personal-projects">
-          <button className={styles.projects_btn}>PERSONAL PROJECTS</button>
+          <button className={styles.projects_btn}>MY PROJECTS</button>
         </NavLink>
       </div>
       <p className={styles.about_myself}>
